@@ -1,0 +1,16 @@
+{
+  "type": "module",
+  "dependencies": {
+    "express": "^4.19.2",
+    "node-fetch": "^3.3.2"
+  },
+  "scripts": {
+    "start": "nodemon server.js"
+  },
+  "name": "240603-be-simple-routes-jafsoon",
+  "description": "Your task is to finish this incomplete read only API.",
+  "version": "1.0.0",
+  "main": "server.js",
+  "author": "Javaid Afsoon",
+  "license": "ISC"
+}
