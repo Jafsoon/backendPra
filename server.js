@@ -10,6 +10,6 @@ app.use('/product', productsRouter)
 app.use('/user', usersRouter)
 
 const port = 8080
-app.listen(port, () => {
+app.listen(process.env.port,() => {
     console.log(`Server is running on port ${port}`)
 })
